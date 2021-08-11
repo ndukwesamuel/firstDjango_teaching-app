@@ -1,0 +1,212 @@
+.h1, h1 {
+    font-size: 2.1875em;
+   color: rgb(78, 76, 76);
+   text-align: center;
+}
+.pr1{
+  justify-content: space-between;
+  /* background-color: lawngreen; */
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "wrapper1 wrapper2 wrapper3 wrapper4"
+    "wrapper5 wrapper6 wrapper7 wrapper8"
+    "wrapper9 wrapper10 wrapper11 wrapper12"
+    "wrapper13 wrapper14 ";
+    font-family: unset;
+    /* padding-left: 4%; */
+    width: 92%;
+    margin-left: 4%;
+    
+    
+}
+
+.wrapper1{
+   
+        background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url('../images/Brick.jpg');
+        background-size: cover, contain;
+        background-position: center, right bottom;
+        /* background-repeat: no-repeat, no-repeat; */
+        color: aliceblue;
+       text-align: center;
+       padding-top: ;
+       width: 255px;
+       height: 240px;
+       margin-block-end: 35px;
+      
+       font-size: 37px;
+       
+  
+}
+
+.wrapper2{
+    /* background-image: url(../images/Black\ friday.jpg) ; */
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url('../images/Black\ friday.jpg');
+    background-size: cover, contain;
+    background-position: center, right bottom;
+    text-align: center;
+    color: aliceblue;
+    width: 255px;
+    height: 240px;
+    font-size: 30px;
+}
+.wrapper3{
+    /* background-image: url(../images/chef-value jacket.jpg); */
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url('../images/chef-value jacket.jpg');
+    background-size: cover, contain;
+    background-position: center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    color: aliceblue;
+    width: 255px;
+    height: 240px;
+    font-size: 30px;
+}
+.wrapper4{
+    /* background-image: url(../images/Denim.jpg); */
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url('../images/Denim.jpg');
+    background-size: cover, contain;
+    background-position: center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    color: aliceblue;
+    width: 255px;
+    height: 240px;
+    font-size: 30px;
+}
+.wrapper5{
+    /* background-image: url(../images/chef\ special.jpg); */
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url('../images/chef\ special.jpg');
+    background-size: cover, contain;
+    background-position: center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    color: aliceblue;
+    width: 255px;
+    height: 240px;
+    font-size: 30px;
+    margin-block-end: 35px;
+}
+.wrapper6{
+    /* background-image: url(../images/chef\ hats.jpg); */
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url('../images/hats1.jpg');
+    background-size: cover, contain;
+    background-position: center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    color: aliceblue;
+    width: 255px;
+    height: 240px;
+    font-size: 30px;
+    margin-block-end: 35px;
+}
+.wrapper7{
+    /* background-image: url(../images/chef\ pants.jpg.jpg); */
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url('../images/chef\ pants.jpg');
+    background-size: cover, contain;
+    background-position: center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    color: aliceblue;
+    width: 255px;
+    height: 240px;
+    font-size: 30px;
+    margin-block-end: 35px;
+}
+.wrapper8{
+    /* background-image: url(../images/chef\ shoes.jpg); */
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url('../images/chef\ shoes.jpg');
+    background-size: cover, contain;
+    background-position: center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    color: aliceblue;
+    width: 255px;
+    height: 240px;
+    font-size: 30px;
+    margin-block-end: 35px;
+}
+.wrapper9{
+    /* background-image: url(../images/All\ aprons.jpg); */
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url('../images/apron1.jpg');
+    background-size: cover, contain;
+    background-position: center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    justify-content: stretch;
+    text-align: center;
+    color: aliceblue;
+    width: 255px;
+    height: 240px;
+    font-size: 30px;
+    margin-block-end: 35px;
+}
+.wrapper10{
+    /* background-image: url(../images/Trade\ jackets.jpg); */
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url('../images/Trade\ jackets.jpg');
+    background-size: cover, contain;
+    background-position: center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    color: aliceblue;
+    width: 255px;
+    height: 240px;
+    font-size: 30px;
+    margin-block-end: 35px;
+}
+.wrapper11{
+    /* background-image: url(../images/Back\ to\ black.jpg); */
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url('../images/Back\ to\ black.jpg');
+    background-size: cover, contain;
+    background-position: center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    color: aliceblue;
+    width: 255px;
+    height: 240px;  
+    font-size: 30px;
+    margin-block-end: 35px;
+}
+.wrapper12{
+    /* background-image: url(../images/cool\ jackets.jpg); */
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url('../images/cool\ jackets.jpg');
+    background-size: cover, contain;
+    background-position: center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    color: aliceblue;
+    width: 255px;
+    height: 240px;
+    font-size: 30px;
+    margin-block-end: 35px;
+}
+.wrapper13{
+    /* background-image: url(../images/Modern\ jackets.jpg); */
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url('../images/Modern\ jackets.jpg');
+    background-size: cover, contain;
+    background-position: center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    color: aliceblue;
+    width: 255px;
+    height: 240px;
+    font-size: 30px;
+    margin-block-end: 35px;
+}
+.wrapper14{
+    /* background-image: url(../images/full\ atire.jpg); */
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url('../images/full\ atire.jpg');
+    background-size: cover, contain;
+    background-position: center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    color: aliceblue;
+    width: 255px;
+    height: 240px;
+    font-size: 30px;
+}
+
+#w{
+    position: relative;
+    top: 90px;
+}
